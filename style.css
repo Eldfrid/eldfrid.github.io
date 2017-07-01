@@ -1,0 +1,22 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+}
+
+.billigsjokoldade{
+  background-image: url();
+}
+
+.planlagteFag{
+  background-image: url();
+}
+
+.cv{
+  background-image: url();
+}
