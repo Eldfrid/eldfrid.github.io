@@ -3,20 +3,35 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .container{
   display: flex;
+
 }
+
 
 .billigsjokoldade{
   background-image: url();
+  background-size: cover;
+  color: #ffffff;
+  padding: 250px;
+  margin: 30px;
 }
 
 .planlagteFag{
   background-image: url();
+  background-size: cover;
+  color: #ffffff;
+  padding: 250px;
+  margin: 30px;
 }
 
 .cv{
   background-image: url();
+  background-size: cover;
+  color: #ffffff;
+  padding: 250px;
+  margin: 30px;
 }
