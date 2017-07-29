@@ -4,35 +4,82 @@ html, body {
   width: 100%;
   height: 100%;
   text-align: center;
+  align-content: center;
+  background-color: #fffff0;
+}
+
+a{
+  color: #ffffff;
+}
+
+.jumbotron{
+  background-color: #f7b72e;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container{
-  display: flex;
-  text-align: center;
-
+  display:flex;
+  justify-content: center;
+  padding: 10px;
 }
 
+.container2{
+  display:flex;
+  background-color: #9ff099;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-.billigsjokoldade{
-  background-image: url();
-  background-size: cover;
+.container3{
+  display:flex;
+  padding: 10px;
+}
+.col-sm-2{
+  padding:10px;
+}
+
+.billigKnapp{
+  background-color: #ffd56d;
+  background-size: contain;
   color: #ffffff;
-  padding: 250px;
+  padding: 10px;
   margin: 30px;
 }
 
-.planlagteFag{
-  background-image: url();
-  background-size: cover;
+.planlagteKnapp{
+  background-color: #abf2ed;
+  background-size: contain;
   color: #ffffff;
-  padding: 250px;
+  padding: 10px;
   margin: 30px;
 }
 
-.cv{
-  background-image: url();
-  background-size: cover;
+.cvKnapp{
+  background-color: #81e2b5;
   color: #ffffff;
-  padding: 250px;
+  background-size: contain;
+  padding: 10px;
   margin: 30px;
+}
+
+.host2017knapp{
+  background-color: #ea7eb2;
+  color: #ffffff;
+  background-size: contain;
+  padding: 10px;
+  margin: 30px;
+}
+
+.fag{
+  background-color: #9ff099;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.hosthead{
+  padding:10px;
 }
